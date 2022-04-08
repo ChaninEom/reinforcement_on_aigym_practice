@@ -56,8 +56,8 @@ class QAgent(Agent):
         if next_state in [5, 7, 11, 12]:
             self.q_table[state, action] = -1
         if next_state ==15:
-            print('==========done=================')
-            self.eps = self.eps * 0.99
+            print('============done================')
+            self.eps = self.eps * 0.93
 
 agent = QAgent(env)
 print(env.__init__)
