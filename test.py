@@ -1,6 +1,4 @@
 import numpy as np
 
-a = np.array([1, 2, 3, 4])
-b = a.copy()
-
-print(type(b))
+a = np.random.random(2)
+print(a)
